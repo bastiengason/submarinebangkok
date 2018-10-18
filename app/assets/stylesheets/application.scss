@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+// Bootstrap
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  background-size: cover no-repeat;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.banner {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  a {
+    padding: 15px 25px;
+    background-color: #F85A43;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    font-size: 16px;
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
