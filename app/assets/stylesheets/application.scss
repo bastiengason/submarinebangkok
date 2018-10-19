@@ -18,6 +18,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// Components
+@import "components/footer";
+@import "components/navbar";
+
 body {
   margin: 0;
   font-family: 'Varela Round', sans-serif;
@@ -63,11 +67,16 @@ body {
 }
 
 .order-now {
+  min-height: 40vh;
   background-color: #F2F2F2;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 .delivery-plateform {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .logo-delivery {

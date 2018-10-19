@@ -1,0 +1,37 @@
+.primary-btn {
+  padding: 15px 25px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+
+
+}
+
+.foodpanda-btn {
+  background-color: #D51965;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.honestbee-btn {
+  background-color: #FEC930;
+  border: 2px solid #211F1F;
+  color: #211F1F;
+
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.lineman-btn {
+  background-color: #41CE6C;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
