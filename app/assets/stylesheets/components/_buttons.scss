@@ -4,7 +4,10 @@
   border-radius: 5px;
   font-weight: bold;
 
-
+  @media screen and (max-width: 441px) {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
 }
 
 .foodpanda-btn {
@@ -18,8 +21,8 @@
 
 .honestbee-btn {
   background-color: #FEC930;
-  border: 2px solid #211F1F;
-  color: #211F1F;
+  // border: 2px solid #211F1F;
+  // color: #211F1F;
 
   &:hover {
     text-decoration: none;
