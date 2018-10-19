@@ -1,0 +1,54 @@
+<!-- Navbar -->
+<div class="navbar-recovr hidden-sm hidden-xs">
+  <a href="#banner-home" class="logo">
+    <%= image_tag("", class: "helloradius-logo") %>
+  </a>
+  <div class="nav-container">
+    <div class="nav-element">
+      <a href="#how">
+        About
+      </a>
+    </div> <!-- End .nav-element -->
+
+    <div class="nav-element">
+      <a href="#">
+        Menu
+      </a>
+    </div> <!-- End .nav-element -->
+
+    <div class="nav-element">
+      <a href="#contact">
+        Contact
+      </a>
+    </div> <!-- End .nav-element -->
+
+    <div class="nav-element">
+      <a class="secondary-btn" href="/plan">Order Now</a>
+    </div> <!-- End .nav-element -->
+  </div>
+</div>
+
+<!-- Mobile Navbar -->
+<div class="navbar-mobile hidden-md hidden-lg">
+  <!-- Logo Helloradius -->
+  <%= image_tag("", class: "logo-mobile") %>
+
+  <div class="dropdown">
+    <!-- Dropdown Icon -->
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- List -->
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#discover">Discover</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how">How</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="/plan">Get Started</a></li>
+    </ul>
+  </div>
+</div>
