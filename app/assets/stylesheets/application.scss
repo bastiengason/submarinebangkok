@@ -7,6 +7,9 @@
 @import "components/footer";
 @import "components/navbar";
 
+// Config
+@import "config/utilities";
+
 // Pages
 
 body {
@@ -58,7 +61,7 @@ body {
   min-height: 40vh;
   background-color: #F2F2F2;
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 60px;
 }
 
 .delivery-plateform {
