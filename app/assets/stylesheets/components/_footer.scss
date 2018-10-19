@@ -1,6 +1,6 @@
 #footer {
   min-height: 50vh;
-  background-color: gray;
+  background-color: #d8d8d8;
 
   @media screen and (max-width: 765px) {
 
@@ -44,7 +44,7 @@
 
     li {
       padding-bottom: 12px;
-      color: blue;
+      color: #d9534f;
 
       a {
         font-size: 13px !important;
@@ -57,14 +57,14 @@
   }
 
   a {
-    color: gray;
+    color: #3e3e3e;
     font-weight: 400;
     letter-spacing: 0.03em;
     font-size: 14px;
 
     &:focus,
     &:hover {
-      color: blue;
+      color: #d9534f;
       font-weight: 400;
       text-decoration: none;
     }
@@ -72,7 +72,7 @@
 }
 
 .footer-list-title {
-  color: blue;
+  color: #d9534f;
   font-weight: 600;
   font-size: 12px !important;
   letter-spacing: 0.05rem;

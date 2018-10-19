@@ -4,12 +4,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: none;
+  background-color: RGBA(0, 0, 0, .2);
   top: 0;
   width: 100%;
   z-index: 10;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -95,7 +95,15 @@
 }
 
 .productile-logo-small {
-  height: 20px;
+  height: 15px;
+}
+
+.productile-logo-medium {
+  height: 50px;
+}
+
+.productile-logo-large {
+  height: 80px;
 }
 
 ////////////////////////////////////////////////////////////////// Dropdown Menu
