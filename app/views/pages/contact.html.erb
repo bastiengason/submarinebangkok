@@ -1,7 +1,12 @@
 <%= render 'shared/navbar' %>
 
-<div id="contact" class="pages">
-  <%= render 'pages/under_construction' %>
+<div id="contact-page" class="pages">
+    <form class="contact-form" method="POST" action="https://formspree.io/hello@submarinebangkok.com">
+      <input class="form-input" type="email" name="email" placeholder="Your email">
+      <textarea class="form-input mt30" name="message" placeholder="Your message"></textarea>
+      <button class="primary-btn form-btn" type="submit">SEND</button>
+    </form>
+  <%#= render 'pages/under_construction' %>
 </div>
 
 <%= render 'shared/footer' %>
