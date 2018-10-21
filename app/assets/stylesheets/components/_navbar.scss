@@ -144,8 +144,27 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  background-color: transparent;
+  padding-bottom: 21px;
+
+  .dropdown-toggle {
+    background-color: transparent;
+    color: #FDFDFD;
+  }
+}
+
+.navbar-mobile-second {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
   background-color: #FDFDFD;
-  padding-bottom: 25px;
+  padding-bottom: 21px;
+
+  .dropdown-toggle {
+    background-color: transparent;
+    color: black;
+  }
 }
 
 .logo-mobile {
@@ -170,6 +189,8 @@
   font-size: 25px;
 }
 
+
+
 .dropdown-menu > li > a {
   display: block;
   padding: 9px 25px;
@@ -179,5 +200,5 @@
   color: #333333;
   white-space: nowrap;
   font-size: 17px;
-  font-family: "Avenir";
+  font-family: "Avenir", sans-serif;
 }

@@ -1,8 +1,10 @@
 #footer {
   min-height: 50vh;
   background-color: #d8d8d8;
+
   @media screen and (max-width: 441px) {
     padding-left: 15%;
+    padding-bottom: 50px;
   }
 }
 
@@ -40,6 +42,7 @@
   ul {
     list-style-type: none;
     padding-left: 0;
+    padding-bottom: 20px;
 
     li {
       padding-bottom: 12px;

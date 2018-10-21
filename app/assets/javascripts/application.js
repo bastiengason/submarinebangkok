@@ -17,6 +17,7 @@
 
 $(function() {
     var navbar = $(".navbar-submarine");
+    var navbar_mobile = $(".navbar-mobile")
     var logo_nav_white = $(".logo-white");
     var logo_nav_orange = $(".logo-orange");
     $(window).scroll(function() {
@@ -24,13 +25,17 @@ $(function() {
 
         if (scroll >= 200) {
             navbar.removeClass('navbar-submarine').addClass("navbar-submarine-second");
+            navbar_mobile.removeClass('navbar-mobile').addClass("navbar-mobile-second");
             logo_nav_white.hide();
             logo_nav_orange.show();
 
         } else {
             navbar.removeClass("navbar-submarine-second").addClass('navbar-submarine');
+            navbar_mobile.removeClass('navbar-mobile').addClass("navbar-mobile-second");
             logo_nav_orange.hide();
             logo_nav_white.show();
         }
     });
 });
+
+
