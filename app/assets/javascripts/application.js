@@ -18,18 +18,18 @@
 $(function() {
     var navbar = $(".navbar-submarine");
     var logo_nav_white = $(".logo-white");
-    var logo_nav_black = $(".logo-black");
+    var logo_nav_orange = $(".logo-orange");
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 200) {
             navbar.removeClass('navbar-submarine').addClass("navbar-submarine-second");
             logo_nav_white.hide();
-            logo_nav_black.show();
+            logo_nav_orange.show();
 
         } else {
             navbar.removeClass("navbar-submarine-second").addClass('navbar-submarine');
-            logo_nav_black.hide();
+            logo_nav_orange.hide();
             logo_nav_white.show();
         }
     });
