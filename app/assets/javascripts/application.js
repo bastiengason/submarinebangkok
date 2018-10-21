@@ -14,3 +14,16 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$(function() {
+    var navbar = $(".navbar-submarine");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 200) {
+            navbar.removeClass('navbar-submarine').addClass("navbar-submarine-second");
+        } else {
+            navbar.removeClass("navbar-submarine-second").addClass('navbar-submarine');
+        }
+    });
+});
