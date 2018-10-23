@@ -1,26 +1,78 @@
 <%= render 'shared/navbar' %>
 
-<div id="business" class="pages">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <div class="business-content">
-          <h2 class="business-title">Nourish your office</h2>
-          <h4 class="business-sub-title">Tasty, On-time, Mess-free</h4>
-          <p class="business-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusamus aliquid cupiditate atque mollitia eveniet impedit quaerat praesentium.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sapiente. Totam laboriosam quos similique voluptatibus suscipit sequi ab ullam, deserunt reiciendis illum! Repellat quibusdam facere laborum cumque cupiditate optio laboriosam.
-          </p>
+<div id="business">
+  <div class="business-hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="business-content">
+            <h2 class="business-title">Nourish your office</h2>
+            <h4 class="business-sub-title">Tasty, On-time, Mess-free</h4>
+            <p class="business-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusamus aliquid cupiditate atque mollitia eveniet impedit quaerat praesentium.
+              <br><br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sapiente. Totam laboriosam quos similique voluptatibus suscipit sequi ab ullam, deserunt reiciendis illum! Repellat quibusdam facere laborum cumque cupiditate optio laboriosam.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="business-form">
+            <h3 class="form-title">Need food for your team?</h3>
+            <p class="form-desc">Fill in your information below and we will get back to you within a few hours.</p>
+            <input type="text" class="form-input">
+            <input type="text" class="form-input">
+            <input type="text" class="form-input">
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <div class="business-form">
-          <h3 class="form-title">Need food for your team?</h3>
-          <p class="form-desc">Fill in your information below and we will get back to you within a few hours.</p>
-          <input type="text" class="form-input">
-          <input type="text" class="form-input">
-          <input type="text" class="form-input">
+    </div>
+  </div>
+
+
+  <!-- Our Customers -->
+  <div class="our-customers">
+    <div class="container">
+      <div class="row">
+        <h2 class="our-customers-title text-center">Some of our happy customers</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- What you get -->
+  <div class="what-you-get">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="what-you-get-title text-center">What you get</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Services -->
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <%= image_tag("", class: "wyg-img") %>
+          <h5 class="wyg-title">World-class service</h5>
+          <p class="wyg-desc">
+            On-time delivery with a custom menu of dishes made fresh by 5-star chefs
+          </p>
+        </div>
+
+        <!-- Discounts -->
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <%= image_tag("", class: "wyg-img") %>
+          <h5 class="wyg-title">Corporate discounts</h5>
+          <p class="wyg-desc">
+            Exclusive discounts for orders starting from 10 pax +
+          </p>
+        </div>
+
+        <!-- Accounts -->
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <%= image_tag("", class: "wyg-img") %>
+          <h5 class="wyg-title">Business app accounts</h5>
+          <p class="wyg-desc">
+            Business accounts for the dahmakan app with monthly billing
+          </p>
         </div>
       </div>
     </div>
@@ -28,3 +80,23 @@
 </div>
 
 <%= render 'shared/footer' %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
